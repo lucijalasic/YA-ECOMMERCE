@@ -1,0 +1,122 @@
+html, body{
+	height:100%;
+	margin:0;
+}
+.container {
+	width:100%;
+	position:relative;
+	background-color:#094765;
+	margin:0;
+	padding:0;
+}
+header h1, h4{
+	text-align:center;
+	color:#ffeecf;
+	margin:2px;
+	padding:7px;
+}
+header h1{
+	font-size:36px;
+	text-decoration:underline;
+}
+nav {
+	text-align:center;
+	background-color: #e2e2e2;
+	padding:5px;
+	
+}
+nav ul li{
+	display:inline;
+	padding:10px 15px;
+	text-align:left;
+	font-size:19px;
+	font-weight:bold;
+}
+nav ul li a{
+	color:#094765;
+	text-decoration:none;
+}
+nav ul li a:hover{
+	color:#00a9fb;
+}
+.sharing{
+}
+.sharing section{
+	width:58%;
+	background-color:#f9f7f7;
+	padding:5px;
+	float:left;
+}
+.sharing section h2{
+	text-align:center;
+	color:#fb9600e0;
+}
+.sharing section article p{
+	padding:2px 5px;
+}
+.sharing section article table{
+	border-collapse: collapse;
+	padding:2px 5px;
+	width:100%;
+	
+}
+.sharing section article table, th, td{
+	border:2px solid #e2e2e2;
+	padding:5px;
+}
+.sharing section article table tr:nth-of-type(even){
+	background-color:#fde3b4;
+}
+.sharing aside{
+	float:left;
+	border-top:1px solid #e2e2e2;
+	border-left:2px solid #e2e2e2;
+	border-bottom:1px solid #e2e2e2;
+	background-color:white;
+	padding:1%;
+	width:37%;
+	margin-right:0px;
+}
+.sharing aside .bg-img {
+  /* The image used */
+  background-image: url("menwomen.png");
+
+  min-height: 385px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /* Needed to position the navbar */
+  position: relative;
+}
+
+/* Position the navbar container inside the image */
+.sadrzaj {
+  position: absolute; /* 
+  margin: 10px; */
+  padding: 32% 26%;
+  width: auto;
+}
+
+/* The navbar */
+.middlenav {
+  overflow: hidden;
+  background-color: #656262d4;
+}
+
+/* Navbar links */
+.middlenav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.middlenav a:hover {
+  background-color: #ddd;
+  color: black;
+}
